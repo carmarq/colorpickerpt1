@@ -3,13 +3,13 @@ window.onload = function () {
 };
 
 function initColorPicker() {
-	let colorbox = document.getElementById("color-box");
+	let colorBox = document.getElementById("color-box");
 	let rgb = {
 		red: document.getElementById("red"),
 		green: document.getElementById("green"),
 		blue: document.getElementById("blue")
 	};
-	setColorPickerEventListeners(colorbox,rgb);
+	setColorPickerEventListeners(colorBox, rgb);
 }
 
 function setColorPickerEventListeners(colorBox, rgb) {
